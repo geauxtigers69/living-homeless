@@ -1,60 +1,15 @@
-# Neat Starter
+# Surviving the Streets Blog 
 
-Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind CSS
+Andrew and Lisa's blog about being homeless, built with [Eleventy](https://www.11ty.dev/), [Tailwind CSS](https://tailwindcss.com/), [Alpine.js](https://github.com/alpinejs/alpine), and [Decap CMS](https://decapcms.org).
 
-## Live Demo
+This blog shares our experience through the last year of struggling and growing as humans as we have faced the most difficult challenge of our entire lives. You can find our daily diary, a timeline of events, our survival tips for the newly homeless, a newsletter sign up page, a guestbook, and a donation page for those of our readers who are so kind as to contribute to our cause that will help finance our immediate needs.
 
-[https://neat-starter.netlify.app/](https://neat-starter.netlify.app/)
+Thank you for following our journey and we hope that this blog helps those who are struggling with homelessness or have a loved one who is currently unhoused. We understand and empathize with your pain - hang in there, it is dark before the sun shines bright!
 
-### Technologies used:
+## Feedback and Contributing
 
-- [Netlify CMS](https://www.netlifycms.org/)
-- [Eleventy](https://www.11ty.dev/)
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Tailwind CSS](https://tailwindcss.com/)
+Join our community to provide feedback and to contribute to the project. More to come on this!
 
-| ![image](https://user-images.githubusercontent.com/1884712/93762662-a62e4700-fc2d-11ea-9b2c-fda9f503402b.png) |
-| ------------------------------------------------------------------------------------------------------------- |
+## Credit
 
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/surjithctly/neat-starter&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
-
-## Getting Started
-
-Detailed instructions are available in my blog. [Check it out](https://blog.surjithctly.in/neat-stack-create-a-static-website-with-netlify-cms-eleventy-alpinejs-and-tailwindcss)
-
-### 1\. Clone this Repository
-
-```
-git clone https://github.com/surjithctly/neat-starter.git
-```
-
-### 2\. Navigate to the directory
-
-```
-cd neat-starter
-```
-
-### 3\. Install dependencies
-
-```
-npm install
-```
-
-### 4\. Build the project to generate the first CSS
-
-This step is only required the very first time.
-
-```
-npm run build
-```
-
-### 5\. Run Eleventy
-
-```
-npm run start
-```
-
-## Author
-
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+We must give credit where it is due - I used a the [NEAT 11ty Starter Template], created by [Surjith S M](https://github.com/surjithctly) ( [@surjithctly](https://surjithctly.in/) ). This is my favorite 11ty Starter Template - great job bro!
