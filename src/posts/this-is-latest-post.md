@@ -1,11 +1,9 @@
 ---
-title: This is my fourth & latest post
-description: Bring to the table win-win survival strategies to ensure proactive
-  domination. At the end of the day, going forward, a new normal that has
-  evolved from generation X is on the runway heading towards a streamlined cloud
-  solution.
-date: 2020-09-23T15:13:13.021Z
-author: Surjith S M
+title: Flying 101
+description: It is likely that you may have to fly a sign at some point while
+  homeless - learn all the ins and outs here!
+author: Andrew Weisbeck
+date: 2023-10-25T05:25:18.144Z
 tags: second-tag
 ---
 

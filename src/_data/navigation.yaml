@@ -1,4 +1,3 @@
----
 items:
   - text: Home 
     url: "/"
@@ -9,4 +8,4 @@ items:
   - text: Resources
     url: "/resources"
   - text: Blog
-    url: "/blog"
+    url: /blog
