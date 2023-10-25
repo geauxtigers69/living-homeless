@@ -1,14 +1,14 @@
----
 links:
-  - title: Netlify CMS
-    url: "https://www.netlifycms.org/"
-    desc: Open source content management for your Git workflow
-  - title: Eleventy
-    url: "https://www.11ty.dev/"
-    desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
-    url: "https://github.com/alpinejs/alpine"
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
-    url: "https://tailwindcss.com/"
-    desc: A utility-first CSS framework for rapidly building custom designs.
+  - title: Our Blog
+    url: https://surviving-the-streets.netlify.app/blog
+    desc: A blog featuring stories and tips on how to survive homelessness.
+  - title: Resources
+    url: https://surviving-the-streets.netlify.app/resources
+    desc: Useful resources for the homeless.
+  - title: Newsletter
+    url: https://surviving-the-streets.netlify.app/sign-up
+    desc: Our newsletter to stay in touch with news and updates.
+  - title: The Homeless Chronicles
+    url: https://surviving-the-streets.netlify.app/the-homless-chronicles
+    desc: Our daily journal and timeline of events of the last year of our homeless
+      experience.
