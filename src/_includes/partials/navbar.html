@@ -1,9 +1,10 @@
-<div class="{{ 'lg:fixed' if path == 'home' }} w-full">
-    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
+<div class="w-full">
+    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-6 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
         <!--Logo etc-->
         <div class="flex items-center">
             <a href="/" class="text-indigo-500 font-bold text-lg">
-                STS</a>
+            Living Homeless
+        </a>
         </div>
 
         <!--Toggle button (hidden on large screens)-->
@@ -15,19 +16,35 @@
         </button>
 
         <!--Menu-->
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center" :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
 
             {% if navigation.items %}
 
                 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
                     {% for item in navigation.items %}
                         <li class="nav__item mr-3">
-                            <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
+                        <a @click="isOpen = false" class="text-ml text-large inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-2 font-bold" href="{{ item.url }}">{{ item.text }}</a>
                         </li>
                     {% endfor %}
                 </ul>
 
             {% endif %}
+        </div>
+
+        <!--Donate Button-->
+        <div class="lg:flex lg:items-center lg:ml-8 text-center" :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
+            <ul class="pt-2 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center lg:border-none border-t-2">
+                <li class="lg:ml-4 mt-4">
+                    <a @click="isOpen = true" class="border-black border-2 lg:rounded-2xl rounded bg-blue-500 hover:bg-blue-800 text-white lg:px-6 lg:py-2 px-2 py-1 lg:ml-4 lg:font-bold" href="/subscribe">
+                        Follow
+                    </a>
+                </li>
+                <li class="lg:ml-4 mt-4">
+                    <a @click="isOpen = true" class="border-black border-2 lg:rounded-2xl rounded bg-green-500 hover:bg-green-800 text-white lg:px-6 lg:py-2 px-2 py-1 lg:ml-4 lg:font-bold" href="/donate">
+                        Donate
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 </div>

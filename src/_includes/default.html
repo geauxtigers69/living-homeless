@@ -17,8 +17,9 @@
     {% endif %}
   </head>
   <body>
+    <div class="px-10">
     {% include "./partials/navbar.html" %}
-
+    </div>
     {{ content | safe }}
 
     {% include "./partials/footer.html" %}
