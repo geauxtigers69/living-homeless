@@ -1,13 +1,13 @@
 links:
   - title: Read the Blog
-    url: "/blog"
+    url: /blog
     desc: Get homeless tips, learn more about homelessness and more on our blog!
-  - title: Daily Journal
-    url: "/journals"
-    desc: Follow Andrew and Lisa through their day to day lives as they experience homelessness.
+  - title: Journal
+    url: /journal
+    desc: Follow Andrew and Lisa through their day to day lives as they experiencechomelessness.
   - title: The Homeless Chronicles
-    url: "https://thehomelesschronicles.substack.com/subscribe"
+    url: https://thehomelesschronicles.substack.com/subscribe
     desc: How we got here, what we've been through, and where we're going.
   - title: Resources
-    url: "/resources"
+    url: /resources
     desc: Find resources that can help a loved one who is struggling with homelessness.

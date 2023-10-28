@@ -1,11 +1,11 @@
 items:
-  - text: Home 
-    url: "/"
+  - text: Home
+    url: /
   - text: About
-    url: "/about"
-  - text: Journals
-    url: "/journals"
+    url: /about
+  - text: Journal
+    url: /journal
   - text: Resources
-    url: "/resources"
+    url: /resources
   - text: Blog
     url: /blog
